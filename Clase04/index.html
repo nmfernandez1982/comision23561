@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+    <form method="post" action="consultarAlumnos" >
+
+        <fieldset>
+            <legend>Datos del alumno</legend>
+            <label for="nombre" >Nombre:</label>
+            <input type="text" id="nombre" name="nombre" 
+            placeholder="Ingrese aqui su nombre..." 
+            value="Nicolas"  maxlength="10" minlength="5" 
+            required>
+            <br>
+            <br>
+            <label for="apellido" >Apellido:</label>
+            <input type="text" id="apellido" name="apellido" 
+            placeholder="Ingrese aqui su apellido..." 
+            value="Fernandez"  maxlength="10" minlength="5" 
+            required>
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad"
+            max="90" min="17"  value="18"
+            >
+            <br>
+            <br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" required pattern="">
+            <br>
+            <br>
+            <label for="fecha">Edad:</label>
+            <input type="date" id="fecha" name="fecha">
+            <br>
+            <br>
+            <label for="comentario">Comentario:</label>
+            <textarea placeholder="" id="" name="" required>
+            </textarea>
+            <br>
+            <br>
+            <input type="color" >   
+            <br>
+            <br>
+            <input type="hidden"  value="187">   
+        </fieldset>
+        <input type="submit" value="enviar" >
+    </form>
+
+    
+    </body>
+</html>
