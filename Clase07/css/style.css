@@ -1,0 +1,37 @@
+p{
+   color: red !important;
+   font-size: 30px;
+}
+
+#textoColor
+{
+  color:green;
+
+}
+
+.textoColor2
+{
+ color: brown;
+}
+
+/*Asigno medidas a mis DIVs*/
+#verde,#azul,#rojo
+{
+    width: 80%;
+    height: 100px;
+}
+
+#verde
+{
+    background-color: green;
+}
+
+#azul
+{
+    background-color: blue;
+}
+
+#rojo
+{
+    background-color: red;
+}

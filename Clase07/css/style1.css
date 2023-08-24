@@ -1,0 +1,16 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+header
+{
+    width: 80%;
+    height: 150px;
+    background-color: lightgray;
+    margin: auto;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 2px 5px 5px black;
+}
