@@ -1,0 +1,47 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;   
+}
+
+
+
+
+div
+{
+    width: 50%;
+    height: 200px;
+    color: white;
+    background-color: violet;
+    box-shadow: 2px 2px grey;
+    border-radius: 5px;
+}
+
+
+
+div h1
+{
+font-size: 1.5em;
+}
+
+div p
+{
+    font-size: 0.8em;
+}
+
+div p span
+{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
