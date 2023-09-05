@@ -1,0 +1,53 @@
+#cuadrado
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color:white;
+    text-align: center;
+}
+
+#cuadrado:hover
+{
+    background-color: white;
+    color:red;
+
+}
+
+
+#nombre
+{
+    background-color: green;
+}
+
+#nombre:focus
+{
+    background-color: blue;
+    font-size: 14px;
+}
+
+
+
+p:lang(sp)
+{
+    background-color: blue;
+    font-size: 14px;
+}
+
+a
+{
+    background-color:white;
+    text-decoration: none;
+
+}
+
+a:link 
+{
+    color: red;
+}
+
+a:active
+{
+background-color: aqua;
+}
+

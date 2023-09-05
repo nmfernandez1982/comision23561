@@ -1,0 +1,42 @@
+
+/*
+#socio > p  selector de hijos
+{
+    color:red;
+}
+
+
+div~p
+{
+    color:red;
+}
+
+
+div+p
+{
+    color:red;
+}
+
+
+div[class="tipoLetra"]
+{
+background-color: red;
+}
+
+div[lang="sp"]
+{
+background-color: blue;
+}
+
+a[href="#"]
+{
+    background-color: green;
+}
+
+
+[href="#"]
+{
+    background-color: blue;
+}
+
+*/
