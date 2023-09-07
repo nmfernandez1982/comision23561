@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+  
+}
+
+
+.container
+{
+    width: 80%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+
+/*    
+justify-content: center;
+justify-content: left;
+justify-content: right;
+justify-content: flex-start;
+justify-content: space-around;
+justify-content: space-between;
+
+*/
+justify-content: space-evenly;
+align-items: center;
+}
+
+#dos
+{
+    align-self: end;
+}
+
+#tres
+{
+    align-self: start;
+    background-image: linear-gradient(blue,violet);
+}

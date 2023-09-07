@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#uno,#dos,#tres,#cuatro,#seis
+{
+    width: 200px;
+    height: 200px;     
+}
+
+#uno
+{
+   
+    background-color:violet;
+    position: absolute;    
+   
+  
+}
+
+#dos
+{
+    background-color:red; 
+    position: absolute;
+    left: 200px;
+}
+
+#tres
+{
+    background-color:pink;
+    position: absolute;
+    left:400px
+    
+}
+
+#cuatro
+{
+    background-color:green;
+    position: absolute;
+    left:600px  
+}
+
+
+#cinco
+{
+    background-color: chocolate;
+    width: 200px;
+    height: 1200px;
+}
+
+
+#seis
+{
+    background-color: red;    
+    position: fixed;
+    left: 300px;
+}
