@@ -1,0 +1,18 @@
+.alertCentrado
+{
+    margin: auto;
+    width: 50%;
+}
+
+button
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+
+#contenedor
+{
+    width: 80%;
+    margin: auto;
+}
+
