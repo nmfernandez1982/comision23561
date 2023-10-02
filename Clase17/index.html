@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    <body>
+    
+    
+    
+    
+    <script>
+        /*Estructuras de control y operadores*/
+        var opc=5;
+
+
+        /*Operadores
+        = asignando
+        valor = "Nicolas";
+        entero = 100;
+
+        == comparar
+        compara literales con varibles / variable con variable / cualquier tipo de dato con cualquier tipo de dato 
+        
+
+        === compara el contenido y tipo de dato
+        */
+
+        if(opc==1)
+        {
+                   console.log("la variable opc es igual a 1");
+                   aux++;
+        }
+        else
+        {
+                  console.log("la variable opc no es igual a 1");
+        }
+
+        var dato1=200;
+
+        /*
+        operadores de comparacion
+        <
+        <=
+        >=
+        >
+        !=       
+        */
+
+        if(dato1>200)
+        {
+            console.log("EL dato es menor");
+        }
+        else
+        {
+            console.log("EL dato es mayor");
+        }
+
+        var nota=7;
+
+        if(!nota>=7)
+        {
+            console.log("Aprobado");
+        }
+        else
+        {
+            console.log("desaprobado"); 
+        }
+
+
+        nota=2;
+        var estado=false;
+        
+        /*Operadores logicos*/
+        /*
+        && --> y todas las partes tienen que ser verdaderas.   
+        || --> o alguna de las partes tiene que ser verdadera.
+        
+        
+        AND
+        V V = V
+        F V = F
+        V F = F
+        F F = F
+
+        OR
+        V V = V
+        V F = V
+        F V = V
+        F F = V
+        */
+
+        if(nota>=7 || estado==true)
+        {
+            console.log("El alumno Esta aprobado");
+        }
+        else
+        {
+            console.log("El alumno Esta no aprobado");
+        }
+
+        nota =7;
+
+        if(nota==10)
+        {
+            console.log("Muy bien felicitado...");
+        }
+        else if(nota==9)
+        {
+            console.log("Excelente Nota");
+        }
+        else if(nota==8)
+        {
+            console.log("Buen trabajo");
+        }
+        else if(nota==7)
+        {
+            console.log("Raspando....");
+        }
+        else
+        {
+            console.log("Podrias mejorar un poco");
+        }
+        
+        nota=2;
+
+        switch(nota)
+        {
+            case 10:
+                    console.log("Aprobado");
+                    break;
+            case 9:
+                    console.log("Aprobado");
+                    break;
+            case 8:
+                    console.log("Aprobado");
+                    break;
+            case 7:
+                    console.log("Aprobado");
+                    break;
+            default:
+                    console.log("No aprobado");
+                    break;
+        }
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+    </body>
+</html>
