@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    </head>
+    <body>
+
+
+          
+        <script>
+                /*Bucles*/
+            //DO---> al menos se ejecuta 1 vez, porque se evalua al final.
+            var x=0;
+            do{
+                console.log("El valor de x es: "+ x);
+                x++; //x=x+1;
+            }while(x<10);
+
+            //while
+            var y=100
+            while(y<10)
+            {
+                console.log("El valor de y es: "+ y);
+                y++; //x=x+1;
+            }
+
+            var numeros=[10,false,9,8,true,7,"Hola",1,1,"Nicolas","Mundo", 6, 4, 2, 10];
+                      //  0  1 2 3  4 5 6  7 8 9 10 11 12 13 14
+
+            console.log(numeros);
+            console.table(numeros);
+            console.log(numeros[13]+8);
+            console.log(numeros[20]);
+            
+            //for
+
+            for(x=5;x<numeros.length;x++)
+            {
+                console.log("El valor del array en la pos.["+x+"]="
+                +numeros[x]);
+            }
+
+            
+
+
+
+     </script>
+    
+    </body>
+</html>   

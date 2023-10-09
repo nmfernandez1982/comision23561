@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <script>
+            var numeros=[10,false,9,8,true,7,"Hola",1,1,"Nicolas","Mundo", 6, 4, 2, 10];
+             
+            for(x=0;x<numeros.length;x++)
+            {
+                if(numeros[x]==7)
+                {
+                    console.log("Encontre el nro. 7");
+                    //break;
+                    continue;
+                }
+                console.log(numeros[x]);                
+            }
+
+            console.log("fin del programa")
+            
+
+            numeros.forEach
+            (
+                numeros=>{console.log("Valor: "+numeros)}
+            );
+
+
+            //operador ternario
+
+            var edad=18;
+
+            let estado = edad >=18 ? "Habilitado" : "No Habilitado";        
+
+            console.log(estado);
+
+
+            //funcion flecha  
+            const miFuncion=(uno,dos) => uno+dos;
+            let suma=miFuncion(44,55);
+            console.log(suma);
+
+
+        </script>
+    
+    </body>
+</html>
