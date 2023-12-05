@@ -1,0 +1,36 @@
+<mxfile host="www.draw.io" modified="2023-11-30T21:19:02.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Gt-AFlfTKpQGEX37Yi4r" version="22.1.5" type="device">
+  <diagram name="Page-1" id="6IckeFzZ8cFL4wyI9fi9">
+    <mxGraphModel dx="1120" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3h8-3jy07QUgAnHjCbIE-1" value="servidor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="80" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3h8-3jy07QUgAnHjCbIE-2" value="CLIENTE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3h8-3jy07QUgAnHjCbIE-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="3h8-3jy07QUgAnHjCbIE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="180" as="sourcePoint" />
+            <mxPoint x="630" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3h8-3jy07QUgAnHjCbIE-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3h8-3jy07QUgAnHjCbIE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="250" as="sourcePoint" />
+            <mxPoint x="290" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3h8-3jy07QUgAnHjCbIE-6" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3h8-3jy07QUgAnHjCbIE-4">
+          <mxGeometry x="-0.0824" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3h8-3jy07QUgAnHjCbIE-5" value="front&lt;br&gt;Controller" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="80" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
